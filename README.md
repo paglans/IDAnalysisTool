@@ -29,4 +29,10 @@ By following the steps above, there should now be a panel running titled IDAnaly
 1. Click either Plot brightness or Plot flux. Or both. :-) Harmonics 1, 3, 5, and 7 are plotted by default.
 1. Changing, for example, the Photon energy at this point will modify the graph in question in real time.
 1. At this point, you are in 'Igor land' and can use standard Igor commands to modify the graphs to your liking.
+1. The Flux and Brightness data are in the Fn and Bn waves, respectively. They are 2D waves with the first harmonic in column 0, third harmonic in column 1, fifth harmonic in column 2, and the 7th harmonic in column 3. To add the third harmonic to an existing graph, use AddToGraph Fn[][1] vs energies[][1]. I believe this has to be done from the command line -- the menu options will not pick up the waves correctly.
 
+## Suggested work flow
+
+1. First create a system for 1.9 GeV. Tweak the photon energy until either the K value or the B-field corresponds to the desired value. 
+1. Add a second system and set the storage ring energy to 2.0 GeV. Tweak the photon energy until either the K value or the B-field corresponds to the value suggested by ALS-U.
+1. Be aware that the tabulated values in most places are for the ID hard stop, which is at a smaller gap (larger B and K) than the minimum operational gap. Example, for the the BL 6.0.1 IVID: current B max = 1.033 T and K max = 2.878, at the hard stop. The *operational* B = 0.953 T and K = 2.67. 
