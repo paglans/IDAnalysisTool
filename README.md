@@ -5,7 +5,8 @@ The main goal of this tool is to be easy to use and to provide enough informatio
 All calculations are based on the equations in the 'Orange Book', http://xdb.lbl.gov.
 
 There are other tools around that provide more accurate results, for example:
-
+* 
+* 
 
 ## Installation
 
@@ -35,4 +36,6 @@ By following the steps above, there should now be a panel running titled IDAnaly
 
 1. First create a system for 1.9 GeV. Tweak the photon energy until either the K value or the B-field corresponds to the desired value. 
 1. Add a second system and set the storage ring energy to 2.0 GeV. Tweak the photon energy until either the K value or the B-field corresponds to the value suggested by ALS-U.
-1. Be aware that the tabulated values in most places are for the ID hard stop, which is at a smaller gap (larger B and K) than the minimum operational gap. Example, for the the BL 6.0.1 IVID: current B max = 1.033 T and K max = 2.878, at the hard stop. The *operational* B = 0.953 T and K = 2.67. 
+** If a calculation for a different polarization is desired, tweak the photon energy until the B-field is 80% (CP), or 70% (LV) of the B-field for horizontal polarization. 
+** Unless measured data is available, then aim for those values.
+1. Be aware that the tabulated values in most places are for the ID hard stop, which is at a smaller gap (larger B and K) than the minimum operational gap. Example, for the the BL 6.0.1 IVID: current B max = 1.033 T and K max = 2.878, at the hard stop. The *operational* B = 0.952 T and K = 2.67. 
