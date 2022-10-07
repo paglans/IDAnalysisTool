@@ -6,8 +6,9 @@ All calculations are based on the equations in the 'Orange Book', http://xdb.lbl
 
 There are other tools around that provide more accurate results, for example:
 
-* 
-* 
+* Full install of SPECTRA, code + web: https://spectrax.org/spectra/
+* Full version of SRW: https://github.com/ochubar/SRW
+* Online version of SRW: https://www.sirepo.com/light#/home
 
 ## Installation
 
