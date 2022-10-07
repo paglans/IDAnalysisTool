@@ -10,6 +10,10 @@ There are other tools around that provide more accurate results, for example:
 * Full version of SRW: https://github.com/ochubar/SRW
 * Online version of SRW: https://www.sirepo.com/light#/home
 
+## Requirements
+
+**Igor Pro**: This project is a plugin for Igor Pro.  You will need Igor Pro 7 or newer installed on your computer.
+
 ## Installation
 
 1. cd into Documents/Wavemetrics/Igor Pro 8 User Files/User Procedures (on a Mac, probably somehwere similar on Windows)
