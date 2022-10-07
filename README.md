@@ -12,10 +12,10 @@ There are other tools around that provide more accurate results, for example:
 ## Installation
 
 1. cd into Documents/Wavemetrics/Igor Pro 8 User Files/User Procedures (on a Mac, probably somehwere similar on Windows)
-  * The code seems to run under Igor 7, but the panel looks ugly since 7 does not know about latex.
+   * The code seems to run under Igor 7, but the panel looks ugly since 7 does not know about latex.
 1. Download the directories Misc and IDAnalysis, either
-  * by directly downloading the directories, or
-  * type 'git clone https://github.com/paglans/IDAnalysisTool.git'
+   * by directly downloading the directories, or
+   * type 'git clone https://github.com/paglans/IDAnalysisTool.git'
 1. Start Igor
 1. Go to File -> Open File -> Procedure...
 1. Navigate to the directory in the first point above, go into IDAnalysis, and open IDAnalysis.ipf
